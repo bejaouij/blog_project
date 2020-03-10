@@ -1,0 +1,17 @@
+const axios = require("axios").default;
+const config = require("../config/app");
+
+module.exports = {
+    getRestAxios: () => {
+        const restDBConfig = {
+            "baseURL": config.API_BASE_URL,
+            "headers": {
+                "Content-Type": "application/json",
+                "x-apikey": config.API_KEY,
+                "Cache-Control": "no-cache"
+            }
+        };
+
+        return axios.create(restDBConfig);
+    }
+};

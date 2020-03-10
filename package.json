@@ -1,0 +1,32 @@
+{
+  "name": "blog_project",
+  "version": "0.1.0",
+  "description": "Short application designed to manage blog contents.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bejaouij/blog_project.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Jeremy Bejaoui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bejaouij/blog_project/issues"
+  },
+  "homepage": "https://github.com/bejaouij/blog_project#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
+  }
+}
