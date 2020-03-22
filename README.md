@@ -21,7 +21,7 @@ git clone https://github.com/bejaouij/blog_project.git
 ```
 Next, set the following environment variables:
 * **RESTDB_API_KEY** - Your RestDB API key with an access to previously mentioned collections.
-* **SERVER_PORT** - The port used by the application.
+* **PORT** - The port used by the application.
 * **SERVER_JWT_SECRET** - A secret for JWT signature.
 
 Now, please install the required dependencies by typing `npm install` from the terminal. Make sure you are in the project root directory.
@@ -29,6 +29,9 @@ Now, please install the required dependencies by typing `npm install` from the t
 To start the application, run the `npm start` command from your terminal.
 
 ## Versions
+### 1.0.1
+* Change port binding environment variable.
+
 ### 1.0.0
 * Application release.
 
