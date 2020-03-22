@@ -7,7 +7,7 @@ const User = require("./models/User");
 const Article = require("./models/Article");
 const app = express();
 
-const SERVER_PORT = process.env.SERVER_PORT;
+const SERVER_PORT = process.env.PORT;
 
 const JwtStrategy = require("passport-jwt").Strategy,
     ExtractJwt = require("passport-jwt").ExtractJwt;
